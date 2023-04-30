@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+}
+.page-one{
+    background-color:#0F12;
+    font-family: 'Segoe UI', Tahoma,  sans-serif;
+}
+.page-one .nav-div {
+    display: flex;
+    gap:80px;
+align-self:flex-start ;
+
+}
+.nav-div h1{
+    margin-left: 90px;
+    font-size: 38px;
+    color: #ffff;
+}
+
+.nav-div .anchor-div{
+    margin-top: 25px;
+    margin-left: -40px;
+}
+.nav-div .anchor-div ul{
+    display: flex;
+    gap:30px;
+}
+
+.nav-div .anchor-div ul li{
+    list-style: none;
+    font-size: 15px;
+    
+}
+.nav-div .anchor-div ul a{
+    text-decoration:none;
+    color: #ffff;
+}
+.nav-div .sayhi{
+    margin-top:45px;
+    margin-left: 145px;
+    
+}
+.nav-div .sayhi a{
+    font-size: 22px;
+    color:#F79E0E;
+}
+
+.hero-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.hero-div .rocket{
+margin-left:90px;
+width:40%;
+}
+.hero-div .rocket h1{
+    font-size: 35px;
+    
+    }
+    .hero-div .rocket p{
+        font-size: 18px;
+        color:#ffff;
+        }
+    .hero-div .rocket .color-it{
+        color:#F79E0E;
+        }
+
+        .short-lorem {
+            display: flex;  
+        }
+        .short-lorem li{
+            list-style: none;
+            margin:7px;
+            color:#ffff;
+        }
+
+        .get-started {
+            margin-top: 25px;
+         }
+         .get-started button{
+             width:270px;
+             height:60px;
+             border-radius: 25px;
+             background-color:#F79E0E ;
+             color:#fff;
+             font-size: 18px;
+             border:none;
+         }
+
+        .aero-div{
+            width:20%;
+
+        }
+        .aero-div img{
+            width:550px;
+            margin-left: 86px;
+            margin-top: 25px;
+            object-fit:contain;
+
+        }
