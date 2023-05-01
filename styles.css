@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,500&display=swap');
+
+
 body{
     margin:0;
     padding:0;
 }
 .page-one{
-    background-color:#0F12;
-    font-family: 'Segoe UI', Tahoma,  sans-serif;
+    background-color:midnightblue;
+    font-family: "Roboto", sans-serif;
+    
 }
 .page-one .nav-div {
     display: flex;
@@ -14,7 +18,7 @@ align-self:flex-start ;
 }
 .nav-div h1{
     margin-left: 90px;
-    font-size: 38px;
+    font-size: 42px;
     color: #ffff;
 }
 
@@ -70,11 +74,24 @@ width:40%;
         .short-lorem {
             display: flex;  
         }
-        .short-lorem li{
+        .short-lorem .list-item-one li{
             list-style: none;
-            margin:7px;
             color:#ffff;
+            margin-bottom: 15px;
+            margin-left: -35px;
+            font-size: 14px;
         }
+        .short-lorem .list-item-two li{
+            list-style: none;
+            margin-left: 45px;
+            color:#ffff;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .fonts{
+            color:#F79E0E;
+            margin-right:15px;
+           }
 
         .get-started {
             margin-top: 25px;
@@ -100,3 +117,71 @@ width:40%;
             object-fit:contain;
 
         }
+        .page-two{
+            display: flex;
+            gap:30px;
+            padding: 0;
+            
+        }
+        .page-two .about{
+            width:60%
+        }
+        .about img{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+         .expert-store{
+            width:35%;
+            margin-top: 100px;
+            
+        }
+        .expert-store .store{
+            margin-bottom:-15px;
+        }
+        .expert-store .color-it{
+            color:#F79E0E;
+        }
+        .expert-store h2{
+                font-size: 30px;
+                line-height: 40px;
+               
+        }
+        .expert-store p{
+            color:darkgrey;
+            margin-top: -10px;
+    }
+    .about-lorem{
+        display:flex;
+        margin-top: -30px;
+    }
+
+    .about-lorem li{
+        list-style: none;
+        margin:7px;
+       font-size: 13px;
+    }
+
+    .about-lorem .list-item-one li{
+        list-style: none;
+        margin-bottom: 15px;
+        margin-left: -35px;
+        font-size: 14px;
+    }
+    .about-lorem .list-item-two li{
+        list-style: none;
+        margin-left: 45px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .read-more button{
+        width:140px;
+        height:50px;
+        background-color:#F79E0E ;
+        border-radius: 5px;
+        color:#fff;
+        font-size: 18px;
+        border:none;
+        margin-left: 13px;
+        margin-top: 18px;
+    }
