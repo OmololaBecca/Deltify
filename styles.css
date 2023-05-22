@@ -24,7 +24,7 @@ align-self:flex-start ;
   background-color: midnightblue;
   height: 90px;
   z-index: 9999;
-  width:1300px
+  width:100%;
 }
 .nav-div h1{
     margin-left: 90px;
@@ -65,7 +65,7 @@ align-self:flex-start ;
     
 }
   .nav-div .anchor-div ul {
-    display: none;
+    display: column;
     
 }
 }
